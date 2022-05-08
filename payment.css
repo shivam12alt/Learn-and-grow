@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+box-sizing: border-box;
+outline: none;
+border: none;
+text-transform: capitalize;
+transition: all .2s linear;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #3f3d3d 60%, #8f8a8a 40.1%);
+    padding-bottom: 70px;
+}
+.contain form{
+    padding: 20px;
+    width: 700px;
+    background: rgb(219, 213, 213);
+    box-shadow: 0 5px 10px red;
+
+}
+.contain form .row5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.contain form .row5 .col5{
+    flex: 1 1 250px;
+}
+.contain form .row5 .col5 .title1{
+font-size: 20px;
+color: #3f3d3d;
+padding-bottom: 5px;
+text-transform: uppercase;
+}
+.contain form .row5 .col5 .inputBox{
+   margin: 15px 0; 
+}
+.contain form .row5 .col5 .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+.contain form .row5 .col5 .inputBox input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.contain form .row5 .col5 .inputBox input:focus{
+    border: 1px solid black;
+}
+.contain form .row5 .col5 .flex{
+    display: flex;
+    gap: 15px;
+}
+.contain form .row5 .col5 .flex .inputBox{
+    margin-top: 5px;
+}
+.contain form .row5 .col5 .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px black);
+
+}
+.contain form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #3f3d3d;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.contain form .submit-btn:hover{
+    background: red;
+    color: black;
+}

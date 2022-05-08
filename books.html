@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Slab:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+</head>
+
+<body>
+ <div class="heade" style="background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(img3.jpg);">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="bookstore.html">BOOKS</a></li>
+                    <li><a href="membership.html">MEMBERSHIP</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      
+    </div>
+
+ 
+
+
+
+
+
+
+
+  
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row1">
+                <div class="footer-col-1">
+                    <h3>DOWNLOAD OUR APP</h3>
+                    <p>Download app for iphpne</p>
+                    <div class="app-logo">
+                        <img src="playstore.png">
+                        <img src="appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo.png" style="   width: 150px;
+             border-radius: 50%;">
+                    <p>RENT READ RETURN</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupns</li>
+                        <li>Blog Post</li>
+                        <li>Return POlicy</li>
+                        <li>Join</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>FOLLOW</h3>
+                    <ul>
+                        <li>INSTAGRAM</li>
+                        <li>FACEBOOK</li>
+                        <li>TWITTER</li>
+                        <li>YOUTUBE
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright
+                2022 - Books retyrn
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
